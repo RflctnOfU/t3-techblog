@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-button {
+  @apply rounded-lg border border-indigo-500 bg-gradient-to-br from-slate-700 to-slate-500 px-2 text-xl text-indigo-300 shadow-inner shadow-indigo-400 transition duration-300 ease-in-out hover:scale-110 hover:border-indigo-400 hover:from-slate-600 hover:to-slate-400 hover:text-indigo-900 hover:shadow-inner hover:shadow-blue-700;
+}
