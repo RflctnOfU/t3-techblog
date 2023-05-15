@@ -29,7 +29,7 @@ const Header = () => {
       >
         {sessionData
           ? `Welcome Back ${userName as string}`
-          : "Welcome to the Tech Blog"}
+          : "Welcome to the Tech Blog.  Sign in to create or see some posts!!"}
       </div>
 
       <div className="flex justify-between gap-2 px-4 py-2">
