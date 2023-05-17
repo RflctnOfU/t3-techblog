@@ -6,9 +6,9 @@ import type {
 } from "react";
 
 const Button: React.FC<{
-  style: CSSProperties | undefined;
+  style?: CSSProperties | undefined;
   children: ReactNode;
-  className: string;
+  className?: string;
   onClick?: MouseEventHandler<HTMLDivElement> | undefined;
 }> = ({ style, children, className, onClick }) => {
   return (
